@@ -1,33 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Crypso</title>
+
 <style>
-body{
-background:#0b0b0b;
-color:white;
-font-family:Arial;
-text-align:center;
-padding:60px;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
 }
-a{
-display:inline-block;
-margin:10px;
-padding:12px 24px;
-background:#6a5cff;
+
+body{
+background:#070707;
 color:white;
+text-align:center;
+}
+
+header{
+padding:80px 20px;
+background:linear-gradient(135deg,#6a00ff,#00cfff);
+}
+
+header h1{
+font-size:55px;
+letter-spacing:3px;
+}
+
+header p{
+margin-top:15px;
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+margin:12px;
+padding:14px 28px;
+background:white;
+color:#111;
 text-decoration:none;
-border-radius:10px;
+border-radius:12px;
+font-weight:bold;
+}
+
+section{
+padding:70px 20px;
+}
+
+h2{
+font-size:38px;
+margin-bottom:25px;
+color:#00cfff;
+}
+
+.features{
+display:grid;
+grid-template-columns:1fr;
+gap:15px;
+max-width:700px;
+margin:auto;
+}
+
+.card{
+background:#111;
+padding:20px;
+border-radius:15px;
+border:1px solid #222;
+}
+
+footer{
+padding:35px;
+background:#111;
+color:#aaa;
 }
 </style>
 </head>
+
 <body>
+
+<header>
 <h1>CRYPSO</h1>
 <p>Crypto Tips Bot for Discord</p>
-<p>Send • Receive • Tip Crypto</p>
+<p>Send • Receive • Tip Crypto Instantly</p>
 
-<a href="#">Invite Bot</a>
-<a href="#">Support</a>
+<a class="btn" href="YOUR_INVITE_LINK">Invite Bot</a>
+<a class="btn" href="YOUR_SUPPORT_LINK">Support</a>
+</header>
+
+<section>
+<h2>Features</h2>
+
+<div class="features">
+<div class="card">⚡ Instant Crypto Tips</div>
+<div class="card">💰 Deposit & Withdraw</div>
+<div class="card">🔥 Low Fees</div>
+<div class="card">🔒 Secure Wallet System</div>
+<div class="card">🚀 Fast Transfers</div>
+<div class="card">🎁 Great for Giveaways</div>
+</div>
+</section>
+
+<section>
+<h2>Why Crypso?</h2>
+<p style="max-width:700px;margin:auto;font-size:18px;line-height:1.8;">
+Built for Discord communities who want fast, simple and secure crypto transactions without leaving Discord.
+</p>
+</section>
+
+<footer>
+© 2026 Crypso • All Rights Reserved
+</footer>
 
 </body>
 </html>
